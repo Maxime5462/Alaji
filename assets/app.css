@@ -5,8 +5,51 @@ body {
 
 h1 {
   text-align: center;
-  font-family: serif;
-  color: black;
-  margin: 20px;
-  border-color: black solid;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 40px;
+  color: darkgray;
+  text-shadow: 0 0 4px #000;
+}
+
+ul, h2 {
+  margin: 0;
+}
+
+#photo {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  overflow: hidden;
+}
+
+img.picture {
+  width: 100%;
+}
+
+ul {
+  color: white;
+  font-size: 20px;
+}
+
+.liste {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.liste h2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: brown;
+  border-radius: 10px;
+  padding: 6px 20px;
+  color: blanchedalmond;
+  margin-bottom: 20px;
+}
+.liste ul{
+  font-weight: bold;
 }
